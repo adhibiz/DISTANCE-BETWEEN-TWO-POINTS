@@ -22,20 +22,19 @@ End the program
 
 ### PROGRAM:
 ```python
-#Program to find the distance between two points
-#Developed by : HIRUTHIK SUDHAKAR
-# Reg Num :212223240054 
+# Developed by: Aathi sakthi s
+# Register No: 212223223001
 import math
-x_1=4
-x_2=10
-y_1=2
-y_2=6
-d=math.sqrt(((x_2-x_1)*(x_2-x_1))+((y_2-y_1)*(y_2-y_1) ))
-print(format(d,"0.2f"))
+x1, y1 = 4, 2
+x2, y2 = 10, 6
+d1 = math.sqrt((x2 - x1)**2 + (y2 - y1)**2)
+print(format(d1,"0.2f"))
+
 ```
 ### OUTPUT:
 
-![alt text](image.png)
+![image](https://github.com/user-attachments/assets/a1f1d0d4-a10c-4eb9-89a1-58b4f660cdc0)
+
 ### RESULT:
 
 Thus the program to find the distance between two points is written and verified using python programming.
